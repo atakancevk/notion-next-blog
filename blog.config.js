@@ -11,12 +11,12 @@ const BLOG = {
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy this blog in a folder
-  since: 2022, // If leave this empty, current year will be used.
+  since: 2023, // If leave this empty, current year will be used.
   postsPerPage: 7,
   sortByDate: true,
   showSummary: false,
-  showAbout: true,
-  showArchive: true,
+  showAbout: false,
+  showArchive: false,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   prismjs_cdn: '', // default is cloudflare, if slow you can set 'https://npm.elemecdn.com/prismjs@1.29.0/components/'
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
